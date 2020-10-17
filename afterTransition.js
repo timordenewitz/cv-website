@@ -1,5 +1,5 @@
 window.addEventListener('sempliceTransitionsDone', function () {
-    moveFooter();
+  moveFooter();
 })
 
 window.addEventListener('load', function () {
@@ -20,14 +20,14 @@ jQuery('.menu-right > .menu-item').eq(2).clone().appendTo('.menu-right .menu')
 
 // Mobile Menu
 jQuery('.overlay-nav .container .menu-item-has-children').children('a').on('click',function (e) {
-  		const subMenu = jQuery(this).parent().find('.sub-menu');
-  		if (subMenu.hasClass('open')) {
-		  return;
-		}
-		e.preventDefault();
-	    e.stopImmediatePropagation()
-		subMenu.parent().parent().css('margin-top', subMenu.children().size() * 55)
-		jQuery('.open').removeClass('open');
-	  	subMenu.addClass('open');
+  const subMenu = jQuery(this).parent().find('.sub-menu');
+  if (subMenu.hasClass('open')) {
+    return;
+  }
+  e.preventDefault();
+  e.stopImmediatePropagation()
+  subMenu.parent().parent().css('margin-top', subMenu.children().size() * 55)
+  jQuery('.open').removeClass('open');
+    subMenu.addClass('open');
 	}
 );

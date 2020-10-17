@@ -4,6 +4,11 @@
   --main-black-color: #292a2c;
 }
 
+/* FONTS */
+#content-holder p {
+	font-size: 0.9rem;
+}
+
 /* Selection */
 ::-moz-selection {
   background: var(--main-red-color);
@@ -59,73 +64,93 @@ nav.standard.menu-right > li {
 /* MOBILE */
 @media screen and (max-width: 543px) {
   #content-holder .ce-button[data-align="left"] {
-	text-align: center;
+	  text-align: center;
   }
 
   #content-holder h2 {
-	font-size: 1.6666666666666667rem;
-	line-height: 2.2222222222222223rem;
+    font-size: 1.6666666666666667rem;
+    line-height: 2.2222222222222223rem;
+  }
+
+  #content-holder h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  #content-holder p {
+    font-size: 0.7rem;
   }
 
   #content-holder .ce-button[data-align="right"] {
-	text-align: center;
+	  text-align: center;
   }
 }
 
 /* TABLET */
 @media screen and (max-width: 767px) and (min-width: 544px) {
-    #content-holder .ce-button[data-align="left"] {
+  #content-holder .ce-button[data-align="left"] {
 		text-align: center;
-  	}
+  }
 
 	#content-holder h2 {
-	  font-size: 2.2222222222222223rem;
-    }
+	  font-size: 1.8rem;
+  }
+
+  #content-holder h3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  #content-holder p {
+    font-size: 0.8rem;
+  }
 
   #content-holder .ce-button[data-align="right"] {
-	text-align: center;
+  	text-align: center;
   }
+
 }
 
 /* TABLET WIDE */
 @media screen and (max-width: 991.98px) and (min-width: 768px) {
   #content-holder h2 {
-	font-size: 2.2222222222222223rem;
-	line-height: 2.7777777777777777rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   #content-holder h3 {
-	font-size: 1.6666666666666667rem;
-	line-height: 2.2222222222222223rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  #content-holder p {
+    font-size: 0.8rem;
   }
 }
 
 /* Desktop */
 @media screen and (max-width: 1169.98px) and (min-width: 992px) {
  #content-holder h2 {
-	font-size: 2.2222222222222223rem;
+    font-size: 2.2222222222222223rem;
+    line-height: 2.5rem
   }
 
   #content-holder h3 {
-	font-size: 1.6666666666666667rem;
-	line-height: 2.2222222222222223rem;
+    font-size: 1.6666666666666667rem;
+    line-height: 2.2222222222222223rem;
   }
 }
 
 /* Desktop Wide */
 @media screen and (min-width: 1169.98px) {
  #content-holder h2 {
-	font-size: 2.5rem;
-   	line-height: 2.5rem
+  	font-size: 2.5rem;
+    line-height: 2.5rem
   }
 
   #content-holder h3 {
-	font-size: 2rem;
+	  font-size: 2rem;
    	line-height: 2rem
-  }
-
-  #content-holder p {
-	font-size: 0.9rem;
   }
 }
 
