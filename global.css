@@ -3,6 +3,10 @@
   --main-red-color: #e4003a;
   --main-black-color: #292a2c;
 }
+
+b {
+  font-weight: bold;
+}
 /* FONTS */
 #content-holder p {
   font-size: 0.9rem;
@@ -190,10 +194,10 @@ div#overlay-menu header {
   position: absolute !important;
   background: #FFF !important;
   height: auto !important;
-  width: 250px !important;
+  width: 230px !important;
   padding: 20px 14px !important;
-  border-radius: 0px !important;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 0.3rem !important;
+  box-shadow: 0 2px 6px rgba(13,23,75,.25);
   justify-content: center !important;
   opacity: 0 !important;
   transition: opacity .4s,visibility .4s;
@@ -240,7 +244,7 @@ div#overlay-menu header {
 }
 /* Subnav List Item Spacing */
 .standard .sub-menu li {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 .standard .sub-menu li:last-child {
   margin-bottom: 0px !important;
@@ -251,14 +255,16 @@ div#overlay-menu header {
   font-size: 0.8333333333333334rem !important;
   width: 100% !important;
   display: block !important;
-  text-align: center !important;
-  font-weight: 800;
+  text-align: left !important;
+  font-weight: 700;
   border-bottom: none !important;
-  padding-bottom: 0 !important;
+  padding: 0.5rem !important;
+  border-radius: 0.2rem !important; 
 }
 /* Subnav List Item Hover Effects */
 .standard .sub-menu li:hover a span {
-  color: var(--main-red-color) !important;
+  background-color: rgba(228,0,58,0.71) !important;
+  color: black !important;
 }
 /* Overlay Menu Subnav Spacing */
 #overlay-menu .sub-menu {
