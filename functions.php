@@ -1,4 +1,4 @@
-// RESTRICT REST API - 
+// RESTRICT REST API
 // ATTENTION - This needs to be added to SEMPLICE functions.php upon every Theme Update
 
 add_filter( 'rest_authentication_errors', function( $result ) {
