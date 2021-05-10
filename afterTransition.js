@@ -25,7 +25,7 @@ jQuery('.overlay-nav .container .menu-item-has-children').children('a').on('clic
 	}
 	e.preventDefault();
 	e.stopImmediatePropagation()
-	subMenu.parent().parent().css('margin-top', subMenu.children().size() * 55)
+	subMenu.parent().parent().css('margin-top', subMenu.children().length * 55)
 	jQuery('.open').removeClass('open');
 	subMenu.addClass('open');
 });
