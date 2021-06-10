@@ -7,8 +7,11 @@ window.addEventListener('load', function () {
 })
 
 function moveFooter() {
-	document.querySelector('.transition-wrap').appendChild(document.querySelector('.footer'));
-	document.querySelector('.footer').className += " movedFooter";
+	const transitionWrap = document.querySelector('.transition-wrap');
+	if (transitionWrap) {
+		transitionWrap.appendChild(document.querySelector('.footer'));
+		document.querySelector('.footer').className += " movedFooter";
+	}
 }
 
 // Move the menu items around
