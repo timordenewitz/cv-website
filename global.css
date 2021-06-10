@@ -100,7 +100,7 @@ nav.standard.menu-right > li {
 		font-size: 0.7rem;
 	}
 
-	#content-holder span {
+	#content-holder li {
 		font-size: 0.7rem;
 	}
 
@@ -127,7 +127,7 @@ nav.standard.menu-right > li {
 		font-size: 0.8rem;
 	}
 
-	#content-holder span {
+	#content-holder li {
 		font-size: 0.8rem;
 	}
 
@@ -148,10 +148,6 @@ nav.standard.menu-right > li {
 	}
 
 	#content-holder p {
-		font-size: 0.8rem;
-	}
-
-	#content-holder span {
 		font-size: 0.8rem;
 	}
 
