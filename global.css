@@ -113,6 +113,10 @@ nav.standard.menu-right > li {
     	opacity: 1 !important;
 	    padding-top: 0 !important;
   	}
+
+	.back-to-top {
+		display: none !important;
+	}
 }
 /* TABLET */
 @media screen and (max-width: 767px) and (min-width: 544px) {
